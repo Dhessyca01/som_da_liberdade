@@ -1,0 +1,154 @@
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6b47c;
+    align-items: center;
+    padding: 20px;
+}
+
+ul li{
+margin-left: 10px;
+}
+
+.evenly{
+display: flex;
+justify-content: space-evenly;
+}
+
+#home_imagem{
+    width: 100%;
+}
+
+.sobre-texto{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 10vh;
+}
+
+.logo{
+    display: flex;
+    width: 70%;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+main{
+    background-color: rgb(252, 244, 179);
+}
+ 
+main, section, label, h4 , p{
+    color: rgb(61, 42, 0);
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgcolor);
+    padding: 20px;
+}
+
+#home{
+  
+   
+   height: 100vh;    
+   width: 100vw;    
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    color: #412c00;
+}
+
+form input{
+    width:  380px;
+}
+
+article p{
+    padding-right: 40px;
+}
+
+.hover a:hover{
+    color: azure;
+}
+
+  
+
+
+
+
+.sobre_container {
+    max-width: 1120px;
+    margin: -24px auto; 
+    padding: 0 16px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+}
+
+.sobre_container img {
+    display: flex;
+    width: 35%;
+    border: 7px solid var(--bgcolor);
+    color: black;
+    border-color: white ;
+    border-radius: 60%;
+    padding-right: 30px;
+}
+
+.sobre_container h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.sobre_container p {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.sobre_github {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.sobre_github button{
+    background-color: var(--bgcolor);
+}
+
+.btn {
+    align-items: center;
+    text-align: center;
+    padding: 20px 42px; 
+    background-color: var(--bgcolor);
+    border: 1px;    
+    border-radius: 10px;    
+    font-weight: 700;       
+}
+
+a.btn:hover{
+background-color: rgb(201, 14, 14);
+color: rgb(243, 0, 0);
+}
+
+/* variável */
+
+:root {
+    --bgcolor: #a3875e;
+}

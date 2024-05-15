@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Meu Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Universe</title>
+</head>
+
+<body>
+    
+    <header>
+
+        
+        <div id="header" class="container_header">
+
+            
+            <div id="titulo" class="flex">
+
+                <!-- Hyperlink -->
+                <h1>Som da liberdade</h1>
+            </div>
+
+            <!-- Conteudo do Menu da Página (header) -->
+            <div id="menu">
+
+                <!-- Menu da Página (nav) -->
+                <nav>
+                    <!-- Marcadores não ordenados -->
+                    <ul class="hover flex">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div id="validador">
+                <!-- Etiqueta do elemento input -->
+                <h2>Você gosta do filme?</h2>
+                <div class="flex evenly">
+                    <input type="radio" name="cor" value="amarelo">
+                    <label for="amarelo">Sim</label><br>
+                    <input type="radio" name="cor" value="vermelho">
+                    <label for="vermelho">Não</label><br>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Principal da Página (main) -->
+    <main class="">
+        <!-- Seção Home -->
+        <section id="home" >
+                  
+           
+                <img class="logo borda"
+                    src="assets/img/Som-da-Liberdade.jpg"
+                    alt="Capa oficial do Site">
+            
+
+            <article id="sobre-texto borda" class="sobre-texto"> 
+                <h4>Bem vindo ao universo do Som da liberdade</h4><br>
+                <p>Um ex-agente federal embarca em uma perigosa missão para salvar uma menina 
+                    dos cruéis traficantes de crianças. Com o tempo se esgotando, ele viaja pelas 
+                    profundezas da selva colombiana, colocando sua vida em risco para libertá-la.</p><br>
+                     
+                    <a target="_blank" href="video.html" alt="Github Dhessyca Sousa">Trailer</a>
+
+            </article>
+            
+
+            
+
+
+        </section>
+
+         <!-- dados do Github-->
+         <section id="sobre" class="sobre_container "> <!-- Adicione aqui as CLASSES -->
+            
+
+            <article id="sobre-texto " class="sobre-texto"> <!-- Adicione aqui as CLASSES -->
+                <h1>Quem sou eu?</h1>
+                <p>
+                    Formada em Direito em 2021, minha carreira é uma fusão entre disciplina jurídica e paixão por tecnologia. 
+                    Atualmente, estou me aprofundando em Desenvolvimento FullStack JavaScript através de um bootcamp intensivo, 
+                    visando construir soluções tecnológicas completas. Com três anos de experiência em vendas em uma plataforma de e-commerce, 
+                    desenvolvi habilidades em compreender as demandas do mercado e em comunicação, essenciais para otimizar processos e melhorar 
+                    a experiência do usuário. Estou cursando Sistemas de Informação para integrar minha experiência jurídica e em comércio eletrônico 
+                    com habilidades técnicas robustas, focando na implementação ética e responsável de soluções tecnológicas. Movida por curiosidade 
+                    e um desejo constante de aprender, aspiro a conectar tecnologia, negócios e sociedade de maneira inovadora e transformadora.
+                </p>
+
+                <div id="sobre-github" class="sobre_github flex"> <!-- Adicione aqui as CLASSES -->
+                    <a class="btn" target="_blank" href="https://github.com/Dhessyca01">Github</a>
+                   
+                    <!-- Adicione aqui as CLASSES -->
+                    <p>3 Seguidores</p>
+                    <p>12 Repositórios</p>
+                </div>
+
+            </article>
+
+            <img src="https://avatars.githubusercontent.com/u/157776978?v=4"
+                alt="Foto do Perfil do Github - Dhessyca Sousa">
+        </section>
+
+
+        <!-- Seção Formulário de Contato e Redes Sociais -->
+        <section id="contato" class="borda">
+
+            <h2>Me mande uma mensagem!</h2>
+
+            <!-- Seção do Formulário-->
+            <form action="" method="POST">
+                <div>
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false" >
+                </div>
+                <div>
+                    <label for="nome"><strong>Nome: </strong></label>
+                    <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="email"><strong>Email: </strong></label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+                <div>
+                    <label for="subject"><strong>Assunto: </strong></label>
+                    <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+                </div>
+                <div>
+                    <label for="message"><strong>Mensagem: </strong></label>
+                    <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+           </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer>
+        Feito com ❤ por Dhessyca - 2024
+    </footer>
+</body>
+
+</html>
